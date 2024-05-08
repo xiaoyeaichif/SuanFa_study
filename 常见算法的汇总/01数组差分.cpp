@@ -9,7 +9,7 @@ void chafen_add(vector<int>& nums, int left, int right, int k)
 	nums[right + 1] += -k;
 }
 
-int main1()
+int main()
 {
 	vector<int>ans = { 1,3,2,5,6,4 };
 	/*
