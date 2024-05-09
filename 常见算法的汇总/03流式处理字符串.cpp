@@ -3,6 +3,8 @@
 #include <vector>
 #include <string>
 
+
+//流式输出的写法
 std::vector<std::string> splitString(const std::string& s, char delimiter) {
     std::vector<std::string> tokens;  // 用于存放分割后的子字符串
     std::string token;  // 存放每个分割出的子字符串
@@ -16,7 +18,7 @@ std::vector<std::string> splitString(const std::string& s, char delimiter) {
     return tokens;  // 返回存放分割后子字符串的向量
 }
 
-
+//这个函数处理字符间用逗号隔开
 //int main() 
 //{
 //
@@ -43,7 +45,9 @@ std::vector<std::string> splitString(const std::string& s, char delimiter) {
 //}
 
 
-int main_zifuc() {
+//这个函数用来处理用逗号间隔的数字字符
+//没有指定输入数组的大小,而是直接输入字符串转为数字
+int main_input03() {
     std::cout << "Enter rows of comma-separated elements (press Enter twice to finish):\n";
 
     std::vector<std::vector<int>> matrix;  // 二维数组，用于存储解析后的元素

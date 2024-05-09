@@ -72,5 +72,8 @@
     <ClCompile Include="04离散化建图.cpp">
       <Filter>源文件\06图的输入输出处理</Filter>
     </ClCompile>
+    <ClCompile Include="04输入处理.cpp">
+      <Filter>源文件\05字符串输入输出处理</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

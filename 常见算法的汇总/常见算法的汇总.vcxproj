@@ -140,6 +140,7 @@
     <ClCompile Include="03流式处理字符串.cpp" />
     <ClCompile Include="03边权建图.cpp" />
     <ClCompile Include="04离散化建图.cpp" />
+    <ClCompile Include="04输入处理.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
