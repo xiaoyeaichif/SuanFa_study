@@ -46,7 +46,7 @@ int get_max_length(vector<int>& nums, int k)
     return ans;
 }
 
-int main_qz03()
+int main_qz003()
 {
     int n, m;
     cin >> n >> m;
