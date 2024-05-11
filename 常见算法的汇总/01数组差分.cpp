@@ -11,7 +11,7 @@ void chafen_add(vector<int>& nums, int left, int right, int k)
 
 
 
-int main_chafen()
+int main_chafen01()
 {
 	vector<int>ans = { 1,3,2,5,6,4 };
 	/*
