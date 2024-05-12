@@ -81,5 +81,8 @@
     <ClCompile Include="03平均数为k的最长子数组问题.cpp">
       <Filter>源文件\02前缀和+哈希</Filter>
     </ClCompile>
+    <ClCompile Include="03统计数组中全为1的正方形个数.cpp">
+      <Filter>源文件\01前缀和</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
