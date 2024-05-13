@@ -31,6 +31,12 @@
     <Filter Include="源文件\06图的输入输出处理">
       <UniqueIdentifier>{9af4f295-fe54-40eb-a4ed-e24895b7077d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\07二分答案模板+二分答案法">
+      <UniqueIdentifier>{09825e5b-0f81-4ab8-9e68-a38ab0e91e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\08力扣周赛">
+      <UniqueIdentifier>{e7183fdb-5be9-4d33-b9de-68aa745d77db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -83,6 +89,15 @@
     </ClCompile>
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp">
       <Filter>源文件\01前缀和</Filter>
+    </ClCompile>
+    <ClCompile Include="03二分答案法_购物的降级策略.cpp">
+      <Filter>源文件\07二分答案模板+二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="07力扣周赛.cpp">
+      <Filter>源文件\08力扣周赛</Filter>
+    </ClCompile>
+    <ClCompile Include="05输入一整行的处理.cpp">
+      <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

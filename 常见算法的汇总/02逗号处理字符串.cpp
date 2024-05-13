@@ -4,7 +4,7 @@
 #include <string>
 
 
-int main_input02()
+int main()
 {
 	std::string str;
 	//读取标准输入流中的一行文本,知道遇到换行符为止
@@ -14,6 +14,8 @@ int main_input02()
 
 	//默认的getline遇到换行符号终止, 但是第三个参数可以指定符号停止
 	//getline(std::cin, str);
+
+
 	std::cout << "You entered: " << str << std::endl;
 	std::cout << "size:" << str.size() << std::endl;
 	return 0;

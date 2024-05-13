@@ -6,7 +6,7 @@ using namespace std;
 static const int N = 1010;
 static int g[N][N];
 
-int main_input_04() {
+int main_input04() {
     int n, m;
     cin >> n >> m;  // 输入 n 和 m，表示二维数组的行数和列数
 
@@ -21,6 +21,9 @@ int main_input_04() {
         stringstream ss(input);  // 使用字符串流处理当前行数据
         string token;
         int j = 0;
+        /*
+        *   在流ss中获取以逗号分割的字符
+        */
         while (getline(ss, token, ',')) {
             if (j < m) {
                 // 将解析出的数字存储到二维数组中

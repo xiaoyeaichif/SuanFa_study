@@ -137,6 +137,7 @@
     <ClCompile Include="02和为k的最长子数组问题.cpp" />
     <ClCompile Include="02点权建图.cpp" />
     <ClCompile Include="02逗号处理字符串.cpp" />
+    <ClCompile Include="03二分答案法_购物的降级策略.cpp" />
     <ClCompile Include="03平均数为k的最长子数组问题.cpp" />
     <ClCompile Include="03流式处理字符串.cpp" />
     <ClCompile Include="03边权建图.cpp" />
@@ -144,6 +145,8 @@
     <ClCompile Include="04离散化建图.cpp" />
     <ClCompile Include="04输入处理.cpp" />
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp" />
+    <ClCompile Include="07力扣周赛.cpp" />
+    <ClCompile Include="05输入一整行的处理.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

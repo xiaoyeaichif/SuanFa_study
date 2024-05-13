@@ -51,7 +51,7 @@ int countSquares(vector<vector<int>>& matrix) {
     }
     return ans;
 }
-int main()
+int main_qian_03()
 {
     vector<vector<int>>matrix = {
         {0, 1, 1, 1},
