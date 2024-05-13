@@ -6,7 +6,7 @@ using namespace std;
 static const int N = 1010;
 static int g[N][N];
 
-int main_input04() {
+int main_input004() {
     int n, m;
     cin >> n >> m;  // 输入 n 和 m，表示二维数组的行数和列数
 
