@@ -4,7 +4,7 @@
 #include <string>
 
 
-int main()
+int main_input02()
 {
 	std::string str;
 	//读取标准输入流中的一行文本,知道遇到换行符为止

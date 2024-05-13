@@ -99,5 +99,8 @@
     <ClCompile Include="05输入一整行的处理.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
+    <ClCompile Include="01二分查找的三种写法.cpp">
+      <Filter>源文件\07二分答案模板+二分答案法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
