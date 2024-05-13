@@ -43,7 +43,7 @@ int lower_bound2(vector<int>& nums, int target)
 }
 
 
-int main()
+int main_erfen01()
 {
 	vector<int>nums = { 1,2,5,6,7,8,9,10 };
 	int target = 6;
