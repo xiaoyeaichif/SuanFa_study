@@ -143,6 +143,7 @@
     <ClCompile Include="03流式处理字符串.cpp" />
     <ClCompile Include="03边权建图.cpp" />
     <ClCompile Include="03领地选择.cpp" />
+    <ClCompile Include="04切分字符串.cpp" />
     <ClCompile Include="04离散化建图.cpp" />
     <ClCompile Include="04输入处理.cpp" />
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp" />

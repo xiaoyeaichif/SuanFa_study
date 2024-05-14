@@ -102,5 +102,8 @@
     <ClCompile Include="01二分查找的三种写法.cpp">
       <Filter>源文件\07二分答案模板+二分答案法</Filter>
     </ClCompile>
+    <ClCompile Include="04切分字符串.cpp">
+      <Filter>源文件\07二分答案模板+二分答案法</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

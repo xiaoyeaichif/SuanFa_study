@@ -67,15 +67,16 @@ int main_erfen03_01()
 }
 
 //第二种写法,流式处理
-int main_erfen03_02()
+int main_erfen_03()
 {
     string line;
     getline(cin, line);
 
-    //转为流式处理
+    //将字符串line转为流式处理
     istringstream ss(line);
     vector<int>arr;
     int num;
+    //ss>>num 会自动跳过空格和其他空白字符,直接读取下一个整数
     while (ss >> num)
     {
         arr.push_back(num);
