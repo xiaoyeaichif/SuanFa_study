@@ -41,7 +41,7 @@ void unionSets(int x, int y) {
     }
 }
 
-int main() {
+int main_bincha02() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
