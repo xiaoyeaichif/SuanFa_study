@@ -37,6 +37,9 @@
     <Filter Include="源文件\08力扣周赛">
       <UniqueIdentifier>{e7183fdb-5be9-4d33-b9de-68aa745d77db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\09并查集">
+      <UniqueIdentifier>{3fca9f46-5661-4387-af23-1357d2c2c096}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -104,6 +107,15 @@
     </ClCompile>
     <ClCompile Include="04切分字符串.cpp">
       <Filter>源文件\07二分答案模板+二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="05最长的R区间.cpp">
+      <Filter>源文件\07二分答案模板+二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="01并查集的模板01.cpp">
+      <Filter>源文件\09并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="03并查集的模板02.cpp">
+      <Filter>源文件\09并查集</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

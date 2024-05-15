@@ -131,6 +131,7 @@
     <ClCompile Include="01二分查找的三种写法.cpp" />
     <ClCompile Include="01合并元素.cpp" />
     <ClCompile Include="01图的模板.cpp" />
+    <ClCompile Include="01并查集的模板01.cpp" />
     <ClCompile Include="01数组差分.cpp" />
     <ClCompile Include="01逗号为分割处理字符串.cpp" />
     <ClCompile Include="02二维前缀和模板.cpp" />
@@ -140,6 +141,7 @@
     <ClCompile Include="02逗号处理字符串.cpp" />
     <ClCompile Include="03二分答案法_购物的降级策略.cpp" />
     <ClCompile Include="03平均数为k的最长子数组问题.cpp" />
+    <ClCompile Include="03并查集的模板02.cpp" />
     <ClCompile Include="03流式处理字符串.cpp" />
     <ClCompile Include="03边权建图.cpp" />
     <ClCompile Include="03领地选择.cpp" />
@@ -147,6 +149,7 @@
     <ClCompile Include="04离散化建图.cpp" />
     <ClCompile Include="04输入处理.cpp" />
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp" />
+    <ClCompile Include="05最长的R区间.cpp" />
     <ClCompile Include="07力扣周赛.cpp" />
     <ClCompile Include="05输入一整行的处理.cpp" />
   </ItemGroup>
