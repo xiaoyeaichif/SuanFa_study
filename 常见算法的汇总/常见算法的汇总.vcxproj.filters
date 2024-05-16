@@ -114,8 +114,17 @@
     <ClCompile Include="01并查集的模板01.cpp">
       <Filter>源文件\09并查集</Filter>
     </ClCompile>
-    <ClCompile Include="03并查集的模板02.cpp">
+    <ClCompile Include="02并查集的模板02.cpp">
       <Filter>源文件\09并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="03判断是否为亲戚.cpp">
+      <Filter>源文件\09并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="04计算相似度.cpp">
+      <Filter>源文件\09并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="06流式处理字符串.cpp">
+      <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

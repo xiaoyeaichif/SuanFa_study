@@ -27,7 +27,7 @@ int main_input04() {
         while (getline(ss, token, ',')) {
             if (j < m) {
                 // 将解析出的数字存储到二维数组中
-                g[i][j] = stoi(token);  // 转换成整数并存储
+                g[i][j] = stoi(token);  // 将字符串转成整数并存储
                 j++;
             }
         }
