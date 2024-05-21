@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-int main() {
+int main_input06() {
     //获取以逗号分割的字符串
     /*
     *  比如 str = "yejie,nihao,nizaina"
@@ -17,7 +17,7 @@ int main() {
     getline(cin, str);
 
     //接下来将使用字符串流处理当前行数据
-    stringstream ss(str);
+    istringstream ss(str);//或者使用    stringstream ss(str)也是可以的
     vector<string>ans;
     //将分割的字符串存在数组中
     string token;

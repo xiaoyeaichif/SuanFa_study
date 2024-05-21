@@ -40,6 +40,9 @@
     <Filter Include="源文件\09并查集">
       <UniqueIdentifier>{3fca9f46-5661-4387-af23-1357d2c2c096}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\10树状数组">
+      <UniqueIdentifier>{a0873e8e-4a0a-4bc3-82ae-99e7cbd42ff4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -125,6 +128,18 @@
     </ClCompile>
     <ClCompile Include="06流式处理字符串.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣826.cpp">
+      <Filter>源文件\08力扣周赛</Filter>
+    </ClCompile>
+    <ClCompile Include="01单点修改,区间查询.cpp">
+      <Filter>源文件\10树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="02区间修改,单点查询.cpp">
+      <Filter>源文件\10树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="03逆序对个数.cpp">
+      <Filter>源文件\10树状数组</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
