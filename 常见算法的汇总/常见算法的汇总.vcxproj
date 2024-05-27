@@ -133,6 +133,7 @@
     <ClCompile Include="01合并元素.cpp" />
     <ClCompile Include="01图的模板.cpp" />
     <ClCompile Include="01并查集的模板01.cpp" />
+    <ClCompile Include="01数的3进制表示.cpp" />
     <ClCompile Include="01数组差分.cpp" />
     <ClCompile Include="01逗号为分割处理字符串.cpp" />
     <ClCompile Include="02二维前缀和模板.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="02点权建图.cpp" />
     <ClCompile Include="02逗号处理字符串.cpp" />
     <ClCompile Include="03二分答案法_购物的降级策略.cpp" />
+    <ClCompile Include="03二进制枚举,找到数组大小为3的所有集合.cpp" />
     <ClCompile Include="03判断是否为亲戚.cpp" />
     <ClCompile Include="03平均数为k的最长子数组问题.cpp" />
     <ClCompile Include="02并查集的模板02.cpp" />
@@ -158,7 +160,12 @@
     <ClCompile Include="06流式处理字符串.cpp" />
     <ClCompile Include="07力扣周赛.cpp" />
     <ClCompile Include="05输入一整行的处理.cpp" />
+    <ClCompile Include="任何数表示成2进制表示.cpp" />
+    <ClCompile Include="判断一个数是质数还是合数.cpp" />
+    <ClCompile Include="力扣1738.cpp" />
     <ClCompile Include="力扣826.cpp" />
+    <ClCompile Include="华为0417.cpp" />
+    <ClCompile Include="左移右移测试.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

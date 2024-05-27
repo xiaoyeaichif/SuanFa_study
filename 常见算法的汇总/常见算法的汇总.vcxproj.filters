@@ -43,6 +43,9 @@
     <Filter Include="源文件\10树状数组">
       <UniqueIdentifier>{a0873e8e-4a0a-4bc3-82ae-99e7cbd42ff4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\11DFS+BFS">
+      <UniqueIdentifier>{baf43d2b-e243-4fa7-b928-8a783ea55859}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -140,6 +143,27 @@
     </ClCompile>
     <ClCompile Include="03逆序对个数.cpp">
       <Filter>源文件\10树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="华为0417.cpp">
+      <Filter>源文件\08力扣周赛</Filter>
+    </ClCompile>
+    <ClCompile Include="01数的3进制表示.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="任何数表示成2进制表示.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="判断一个数是质数还是合数.cpp">
+      <Filter>源文件\08力扣周赛</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣1738.cpp">
+      <Filter>源文件\08力扣周赛</Filter>
+    </ClCompile>
+    <ClCompile Include="左移右移测试.cpp">
+      <Filter>源文件\08力扣周赛</Filter>
+    </ClCompile>
+    <ClCompile Include="03二进制枚举,找到数组大小为3的所有集合.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
