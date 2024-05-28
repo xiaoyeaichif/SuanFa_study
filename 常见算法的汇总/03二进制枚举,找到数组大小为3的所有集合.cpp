@@ -8,7 +8,7 @@ using namespace std;
 */
 
 vector<vector<int>>ans;
-int main() {
+int main_dfs03() {
     int n;
     cin >> n;
     int k = 4;

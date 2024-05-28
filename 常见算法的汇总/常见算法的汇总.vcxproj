@@ -160,12 +160,13 @@
     <ClCompile Include="06流式处理字符串.cpp" />
     <ClCompile Include="07力扣周赛.cpp" />
     <ClCompile Include="05输入一整行的处理.cpp" />
-    <ClCompile Include="任何数表示成2进制表示.cpp" />
+    <ClCompile Include="02任何数表示成2进制表示.cpp" />
     <ClCompile Include="判断一个数是质数还是合数.cpp" />
     <ClCompile Include="力扣1738.cpp" />
     <ClCompile Include="力扣826.cpp" />
     <ClCompile Include="华为0417.cpp" />
     <ClCompile Include="左移右移测试.cpp" />
+    <ClCompile Include="04拥堵的城市.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

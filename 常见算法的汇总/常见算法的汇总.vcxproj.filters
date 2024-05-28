@@ -150,7 +150,7 @@
     <ClCompile Include="01数的3进制表示.cpp">
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
-    <ClCompile Include="任何数表示成2进制表示.cpp">
+    <ClCompile Include="02任何数表示成2进制表示.cpp">
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
     <ClCompile Include="判断一个数是质数还是合数.cpp">
@@ -163,6 +163,9 @@
       <Filter>源文件\08力扣周赛</Filter>
     </ClCompile>
     <ClCompile Include="03二进制枚举,找到数组大小为3的所有集合.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="04拥堵的城市.cpp">
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
   </ItemGroup>
