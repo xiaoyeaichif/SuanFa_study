@@ -65,6 +65,7 @@ int main_input03() {
 
         // 将字符串形式的元素转换为整数，并存入一维数组
         std::vector<int> row;
+        std::vector<int> row;
         for (const std::string& elem : elements) {
             int num = std::stoi(elem);  // 将字符串转换为整数
             row.push_back(num);  // 将整数存入一维数组

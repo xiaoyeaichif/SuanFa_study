@@ -66,13 +66,13 @@
     <ClCompile Include="01数组差分.cpp">
       <Filter>源文件\04差分数组</Filter>
     </ClCompile>
-    <ClCompile Include="01逗号为分割处理字符串.cpp">
+    <ClCompile Include="01逗号为分割处理数组.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
-    <ClCompile Include="02逗号处理字符串.cpp">
+    <ClCompile Include="02getline逗号处理字符串.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
-    <ClCompile Include="03流式处理字符串.cpp">
+    <ClCompile Include="03为给定数组大小流式处理字符串.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
     <ClCompile Include="01图的模板.cpp">
@@ -87,7 +87,7 @@
     <ClCompile Include="04离散化建图.cpp">
       <Filter>源文件\06图的输入输出处理</Filter>
     </ClCompile>
-    <ClCompile Include="04输入处理.cpp">
+    <ClCompile Include="04以逗号分割的数组输入处理.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
     <ClCompile Include="03领地选择.cpp">

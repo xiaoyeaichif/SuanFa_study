@@ -18,6 +18,7 @@ int main_input06() {
 
     //接下来将使用字符串流处理当前行数据
     istringstream ss(str);//或者使用    stringstream ss(str)也是可以的
+
     vector<string>ans;
     //将分割的字符串存在数组中
     string token;
