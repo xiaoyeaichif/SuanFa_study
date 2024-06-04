@@ -132,7 +132,9 @@
     <ClCompile Include="01单点修改,区间查询.cpp" />
     <ClCompile Include="01合并元素.cpp" />
     <ClCompile Include="01图的模板.cpp" />
+    <ClCompile Include="01子树节点个数.cpp" />
     <ClCompile Include="01并查集的模板01.cpp" />
+    <ClCompile Include="01指针大小的验证.cpp" />
     <ClCompile Include="01数的3进制表示.cpp" />
     <ClCompile Include="01数组差分.cpp" />
     <ClCompile Include="01逗号为分割处理数组.cpp" />
@@ -148,15 +150,20 @@
     <ClCompile Include="03平均数为k的最长子数组问题.cpp" />
     <ClCompile Include="02并查集的模板02.cpp" />
     <ClCompile Include="03为给定数组大小流式处理字符串.cpp" />
+    <ClCompile Include="03RGB树.cpp" />
     <ClCompile Include="03边权建图.cpp" />
     <ClCompile Include="03逆序对个数.cpp" />
     <ClCompile Include="03领地选择.cpp" />
+    <ClCompile Include="04_02全红连通块个数.cpp" />
+    <ClCompile Include="04全红连通块个数.cpp" />
     <ClCompile Include="04切分字符串.cpp" />
     <ClCompile Include="04离散化建图.cpp" />
     <ClCompile Include="04计算相似度.cpp" />
     <ClCompile Include="04以逗号分割的数组输入处理.cpp" />
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp" />
     <ClCompile Include="05最长的R区间.cpp" />
+    <ClCompile Include="05统计给定数字的因子个数.cpp" />
+    <ClCompile Include="05魔法树.cpp" />
     <ClCompile Include="06流式处理字符串.cpp" />
     <ClCompile Include="07力扣周赛.cpp" />
     <ClCompile Include="05输入一整行的处理.cpp" />
@@ -167,6 +174,7 @@
     <ClCompile Include="华为0417.cpp" />
     <ClCompile Include="左移右移测试.cpp" />
     <ClCompile Include="04拥堵的城市.cpp" />
+    <ClCompile Include="02红绿二叉树.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

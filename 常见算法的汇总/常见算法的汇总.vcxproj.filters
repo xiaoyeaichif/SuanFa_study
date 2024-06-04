@@ -46,6 +46,12 @@
     <Filter Include="源文件\11DFS+BFS">
       <UniqueIdentifier>{baf43d2b-e243-4fa7-b928-8a783ea55859}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\12树形DFS">
+      <UniqueIdentifier>{97901079-749c-4c6a-a350-2c8b9f32e160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\55不同知识的验证">
+      <UniqueIdentifier>{1222fb91-b4cd-4654-ba0f-0946822f1089}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -166,6 +172,30 @@
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
     <ClCompile Include="04拥堵的城市.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="01子树节点个数.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="01指针大小的验证.cpp">
+      <Filter>源文件\55不同知识的验证</Filter>
+    </ClCompile>
+    <ClCompile Include="02红绿二叉树.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="03RGB树.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="04_02全红连通块个数.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="04全红连通块个数.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="05统计给定数字的因子个数.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="05魔法树.cpp">
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
   </ItemGroup>

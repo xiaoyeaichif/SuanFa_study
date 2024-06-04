@@ -8,7 +8,7 @@ typedef pair<int, int>PII;
 #define x first
 #define y second
 typedef long long ll;
-static const int N = 1E5 + 10;
+static const int N = 1e5 + 10;
 static vector<PII>g[N];
 static int n, f[N];
 
