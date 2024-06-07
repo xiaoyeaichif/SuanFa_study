@@ -22,7 +22,7 @@ static void dfs(int u, int fa, long long total)   //枚举以u为终点的路径
     }
 }
 
-int main()
+int main_dfs05()
 {
     cin >> n >> l >> r;
     cin >> s;

@@ -52,6 +52,9 @@
     <Filter Include="源文件\55不同知识的验证">
       <UniqueIdentifier>{1222fb91-b4cd-4654-ba0f-0946822f1089}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\013数论知识">
+      <UniqueIdentifier>{9971b364-205f-4550-be1b-3ce16fcd6e45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -159,9 +162,6 @@
     <ClCompile Include="02任何数表示成2进制表示.cpp">
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
-    <ClCompile Include="判断一个数是质数还是合数.cpp">
-      <Filter>源文件\08力扣周赛</Filter>
-    </ClCompile>
     <ClCompile Include="力扣1738.cpp">
       <Filter>源文件\08力扣周赛</Filter>
     </ClCompile>
@@ -196,6 +196,21 @@
       <Filter>源文件\12树形DFS</Filter>
     </ClCompile>
     <ClCompile Include="05魔法树.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="01判断一个数是质数还是合数.cpp">
+      <Filter>源文件\013数论知识</Filter>
+    </ClCompile>
+    <ClCompile Include="02埃氏筛_适合大数据范围.cpp">
+      <Filter>源文件\013数论知识</Filter>
+    </ClCompile>
+    <ClCompile Include="03平方数.cpp">
+      <Filter>源文件\013数论知识</Filter>
+    </ClCompile>
+    <ClCompile Include="06三色树.cpp">
+      <Filter>源文件\11DFS+BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="07输出树的高度.cpp">
       <Filter>源文件\11DFS+BFS</Filter>
     </ClCompile>
   </ItemGroup>

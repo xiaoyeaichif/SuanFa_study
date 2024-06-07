@@ -52,7 +52,7 @@ bool isComposite(int num) {
 	return num > 1 && !isPrime(num);
 }
 
-int main_zhishu()
+int main_prime01()
 {
 	int n;
 	cin >> n;

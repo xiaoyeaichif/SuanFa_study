@@ -142,6 +142,7 @@
     <ClCompile Include="01和为k的子数组问题.cpp" />
     <ClCompile Include="02区间修改,单点查询.cpp" />
     <ClCompile Include="02和为k的最长子数组问题.cpp" />
+    <ClCompile Include="02埃氏筛_适合大数据范围.cpp" />
     <ClCompile Include="02点权建图.cpp" />
     <ClCompile Include="02getline逗号处理字符串.cpp" />
     <ClCompile Include="03二分答案法_购物的降级策略.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="02并查集的模板02.cpp" />
     <ClCompile Include="03为给定数组大小流式处理字符串.cpp" />
     <ClCompile Include="03RGB树.cpp" />
+    <ClCompile Include="03平方数.cpp" />
     <ClCompile Include="03边权建图.cpp" />
     <ClCompile Include="03逆序对个数.cpp" />
     <ClCompile Include="03领地选择.cpp" />
@@ -164,11 +166,13 @@
     <ClCompile Include="05最长的R区间.cpp" />
     <ClCompile Include="05统计给定数字的因子个数.cpp" />
     <ClCompile Include="05魔法树.cpp" />
+    <ClCompile Include="06三色树.cpp" />
     <ClCompile Include="06流式处理字符串.cpp" />
     <ClCompile Include="07力扣周赛.cpp" />
     <ClCompile Include="05输入一整行的处理.cpp" />
     <ClCompile Include="02任何数表示成2进制表示.cpp" />
-    <ClCompile Include="判断一个数是质数还是合数.cpp" />
+    <ClCompile Include="01判断一个数是质数还是合数.cpp" />
+    <ClCompile Include="07输出树的高度.cpp" />
     <ClCompile Include="力扣1738.cpp" />
     <ClCompile Include="力扣826.cpp" />
     <ClCompile Include="华为0417.cpp" />
