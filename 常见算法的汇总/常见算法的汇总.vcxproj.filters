@@ -43,9 +43,6 @@
     <Filter Include="源文件\10树状数组">
       <UniqueIdentifier>{a0873e8e-4a0a-4bc3-82ae-99e7cbd42ff4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\11DFS+BFS">
-      <UniqueIdentifier>{baf43d2b-e243-4fa7-b928-8a783ea55859}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\12树形DFS">
       <UniqueIdentifier>{97901079-749c-4c6a-a350-2c8b9f32e160}</UniqueIdentifier>
     </Filter>
@@ -54,6 +51,12 @@
     </Filter>
     <Filter Include="源文件\013数论知识">
       <UniqueIdentifier>{9971b364-205f-4550-be1b-3ce16fcd6e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\11DFS">
+      <UniqueIdentifier>{baf43d2b-e243-4fa7-b928-8a783ea55859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\014BFS的应用">
+      <UniqueIdentifier>{60a7c48d-243d-4255-ac42-a2c108988a0b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -157,10 +160,10 @@
       <Filter>源文件\08力扣周赛</Filter>
     </ClCompile>
     <ClCompile Include="01数的3进制表示.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
     </ClCompile>
     <ClCompile Include="02任何数表示成2进制表示.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
     </ClCompile>
     <ClCompile Include="力扣1738.cpp">
       <Filter>源文件\08力扣周赛</Filter>
@@ -169,10 +172,10 @@
       <Filter>源文件\08力扣周赛</Filter>
     </ClCompile>
     <ClCompile Include="03二进制枚举,找到数组大小为3的所有集合.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
     </ClCompile>
     <ClCompile Include="04拥堵的城市.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
     </ClCompile>
     <ClCompile Include="01子树节点个数.cpp">
       <Filter>源文件\12树形DFS</Filter>
@@ -196,7 +199,7 @@
       <Filter>源文件\12树形DFS</Filter>
     </ClCompile>
     <ClCompile Include="05魔法树.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
     </ClCompile>
     <ClCompile Include="01判断一个数是质数还是合数.cpp">
       <Filter>源文件\013数论知识</Filter>
@@ -208,10 +211,28 @@
       <Filter>源文件\013数论知识</Filter>
     </ClCompile>
     <ClCompile Include="06三色树.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
     </ClCompile>
     <ClCompile Include="07输出树的高度.cpp">
-      <Filter>源文件\11DFS+BFS</Filter>
+      <Filter>源文件\11DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="01离开中山路的最小步数.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="02马能到达的位置.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="03可达的节点数.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="04最省油的方案.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="02包含虚函数类的大小.cpp">
+      <Filter>源文件\55不同知识的验证</Filter>
+    </ClCompile>
+    <ClCompile Include="03指针常量和常量指针.cpp">
+      <Filter>源文件\55不同知识的验证</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -23,7 +23,7 @@ int dfs(int u)
 
 
 //Ö÷º¯Êý
-int main()
+int main_tree07()
 {
 	int n;
 	cin >> n;
