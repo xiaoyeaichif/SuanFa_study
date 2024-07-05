@@ -27,7 +27,7 @@ int find(int i) {
 
 // 判断两个节点是否属于同一个集合
 bool isSameSet(int x, int y) {
-    return find(x) == find(y); // 判断两个节点的根节点是否相同
+    return find(x) == find(y); // 判断两个节点的根节点是否相同 
 }
 
 //合并两个集合

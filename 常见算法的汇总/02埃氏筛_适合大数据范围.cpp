@@ -40,10 +40,14 @@ static bool isPrime1(int num)
 }
 
 
-int main_prime02()
+int main_aishishai02()
 {
 	cin >> n;
 	get_prime(n);
 	cout <<"°£ÊÏÉ¸µÄ×ö·¨:" << cnt << endl;
+	for (int i = 0; i < cnt;i++)
+	{
+		cout << prime[i] << ' ';
+	}
 	return 0;
 }

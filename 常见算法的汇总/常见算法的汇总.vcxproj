@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01share_ptr的使用.cpp" />
     <ClCompile Include="01一维前缀和模板.cpp" />
     <ClCompile Include="01二分查找的三种写法.cpp" />
     <ClCompile Include="01单点修改,区间查询.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="01图的模板.cpp" />
     <ClCompile Include="01子树节点个数.cpp" />
     <ClCompile Include="01并查集的模板01.cpp" />
+    <ClCompile Include="01引擎模块.cpp" />
     <ClCompile Include="01指针大小的验证.cpp" />
     <ClCompile Include="01数的3进制表示.cpp" />
     <ClCompile Include="01数组差分.cpp" />
@@ -164,24 +166,30 @@
     <ClCompile Include="04_02全红连通块个数.cpp" />
     <ClCompile Include="04全红连通块个数.cpp" />
     <ClCompile Include="04切分字符串.cpp" />
+    <ClCompile Include="04多态相关实现.cpp" />
     <ClCompile Include="04最省油的方案.cpp" />
     <ClCompile Include="04离散化建图.cpp" />
     <ClCompile Include="04计算相似度.cpp" />
     <ClCompile Include="04以逗号分割的数组输入处理.cpp" />
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp" />
     <ClCompile Include="05最长的R区间.cpp" />
+    <ClCompile Include="05矩阵距离.cpp" />
     <ClCompile Include="05统计给定数字的因子个数.cpp" />
     <ClCompile Include="05魔法树.cpp" />
     <ClCompile Include="06三色树.cpp" />
+    <ClCompile Include="06完全连通的分量个数.cpp" />
     <ClCompile Include="06流式处理字符串.cpp" />
+    <ClCompile Include="06结点的祖先.cpp" />
     <ClCompile Include="07力扣周赛.cpp" />
     <ClCompile Include="05输入一整行的处理.cpp" />
     <ClCompile Include="02任何数表示成2进制表示.cpp" />
     <ClCompile Include="01判断一个数是质数还是合数.cpp" />
     <ClCompile Include="07输出树的高度.cpp" />
+    <ClCompile Include="05判断路径是否存在.cpp" />
     <ClCompile Include="力扣1738.cpp" />
     <ClCompile Include="力扣826.cpp" />
     <ClCompile Include="华为0417.cpp" />
+    <ClCompile Include="合唱队行.cpp" />
     <ClCompile Include="左移右移测试.cpp" />
     <ClCompile Include="04拥堵的城市.cpp" />
     <ClCompile Include="02红绿二叉树.cpp" />

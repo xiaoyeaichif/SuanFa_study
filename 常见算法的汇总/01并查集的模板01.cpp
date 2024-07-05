@@ -23,6 +23,7 @@ static int find(int i) {
         i = father[i];
     }
     // 路径压缩
+    //idx已经到达跟结点了
     while (idx > 0) {
         father[stack[--idx]] = i;
     }
@@ -38,10 +39,10 @@ static void unionSets(int x, int y) {
     int rootX = find(x);
     int rootY = find(y);
 
-    if (rootX != rootY) {
+    if (rootX != rootY) { //小的挂大的
         if (Size[rootX] >= Size[rootY]) {
-            Size[rootX] += Size[rootY];
-            father[rootY] = rootX;
+            Size[rootX] += Size[rootY];//更新大的数据的节点
+            father[rootY] = rootX;//将小的数据更新
         }
         else {
             Size[rootY] += Size[rootX];

@@ -58,6 +58,15 @@
     <Filter Include="源文件\014BFS的应用">
       <UniqueIdentifier>{60a7c48d-243d-4255-ac42-a2c108988a0b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\056智能指针">
+      <UniqueIdentifier>{a8d12b61-ca2d-4895-ad7b-7d1fbf169dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\015拓扑排序的应用">
+      <UniqueIdentifier>{b82c9d9c-1c9b-4584-8e81-c00ce4e18096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\016序列DP">
+      <UniqueIdentifier>{ec43499d-fe14-4113-aaa3-de02a579226a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -233,6 +242,30 @@
     </ClCompile>
     <ClCompile Include="03指针常量和常量指针.cpp">
       <Filter>源文件\55不同知识的验证</Filter>
+    </ClCompile>
+    <ClCompile Include="01share_ptr的使用.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="04多态相关实现.cpp">
+      <Filter>源文件\55不同知识的验证</Filter>
+    </ClCompile>
+    <ClCompile Include="06结点的祖先.cpp">
+      <Filter>源文件\12树形DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="05矩阵距离.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="01引擎模块.cpp">
+      <Filter>源文件\015拓扑排序的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="合唱队行.cpp">
+      <Filter>源文件\016序列DP</Filter>
+    </ClCompile>
+    <ClCompile Include="05判断路径是否存在.cpp">
+      <Filter>源文件\09并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="06完全连通的分量个数.cpp">
+      <Filter>源文件\09并查集</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

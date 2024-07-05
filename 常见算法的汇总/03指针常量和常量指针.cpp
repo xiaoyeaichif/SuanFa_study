@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int main()
+int main_zhishi03()
 {
 	int a = 10;
 	int b = 11;
