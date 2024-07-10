@@ -67,6 +67,9 @@
     <Filter Include="源文件\016序列DP">
       <UniqueIdentifier>{ec43499d-fe14-4113-aaa3-de02a579226a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\017背包问题">
+      <UniqueIdentifier>{eeadf9e4-6159-48b2-b781-6623b09315c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01一维前缀和模板.cpp">
@@ -266,6 +269,15 @@
     </ClCompile>
     <ClCompile Include="06完全连通的分量个数.cpp">
       <Filter>源文件\09并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="最长上升子序列.cpp">
+      <Filter>源文件\016序列DP</Filter>
+    </ClCompile>
+    <ClCompile Include="01和相等的分组.cpp">
+      <Filter>源文件\017背包问题</Filter>
+    </ClCompile>
+    <ClCompile Include="02装满背包需要多少种方法.cpp">
+      <Filter>源文件\017背包问题</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

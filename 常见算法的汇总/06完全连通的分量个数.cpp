@@ -79,7 +79,7 @@ public:
     }
 };
 
-int main()
+int main_bingchaji06()
 {
     int n;
     cin >> n;

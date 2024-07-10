@@ -132,6 +132,7 @@
     <ClCompile Include="01二分查找的三种写法.cpp" />
     <ClCompile Include="01单点修改,区间查询.cpp" />
     <ClCompile Include="01合并元素.cpp" />
+    <ClCompile Include="01和相等的分组.cpp" />
     <ClCompile Include="01图的模板.cpp" />
     <ClCompile Include="01子树节点个数.cpp" />
     <ClCompile Include="01并查集的模板01.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="02埃氏筛_适合大数据范围.cpp" />
     <ClCompile Include="02点权建图.cpp" />
     <ClCompile Include="02getline逗号处理字符串.cpp" />
+    <ClCompile Include="02装满背包需要多少种方法.cpp" />
     <ClCompile Include="02马能到达的位置.cpp" />
     <ClCompile Include="03二分答案法_购物的降级策略.cpp" />
     <ClCompile Include="03二进制枚举,找到数组大小为3的所有集合.cpp" />
@@ -193,6 +195,7 @@
     <ClCompile Include="左移右移测试.cpp" />
     <ClCompile Include="04拥堵的城市.cpp" />
     <ClCompile Include="02红绿二叉树.cpp" />
+    <ClCompile Include="最长上升子序列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
