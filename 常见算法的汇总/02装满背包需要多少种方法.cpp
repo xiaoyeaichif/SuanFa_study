@@ -42,6 +42,6 @@ int main() {
             dp[i][rest] = (p1 + p2) % mod;  // 代表有多少种方法
         }
     }
-    cout << dp[0][target] << endl;
+    cout << dp[0][target] << endl; // 输出
     return 0;
 }
