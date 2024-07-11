@@ -26,8 +26,39 @@ vector<int> yasuo(vector<int>& w, vector<int>& value,int target)
     return ans;
 }
 
+// 背包的问题的模板  
+// 返回获取使背包装下的价值最大
+int beibao(vector<int>& w, vector<int>& value, int bag)
+{
+    // 获取背包的能装下的最大值
+    int n = w.size();
+    /*
+        选择下标i的元素装进背包能获得的最大值
+    */
+    vector<vector<int>>dp(n + 1, vector<int>(bag + 1, 0));
+    // 初始化,i == n时，下标已经越界，所以价值为0
+    for (int j = 0; j < bag + 1; j++)
+    {
+        dp[n][j] = 0; // 其实在数组初始化的时候就已经初始化过了
+    }
+    // 填写整个表格
+    for (int i = n - 1; i >= 0; i--)
+    {
+        for (int rest = 0; rest < bag + 1; rest++)
+        {
+            int p1 = dp[i+1][rest]; // 不选择当前元素，去下一个元素选择
+            int p2 = 0;
+            if (rest - w[i] >= 0)
+            {
+                p2 = dp[i+1][rest - w[i]] + value[i]; //选择当前元素，获取当前的价值，并去下一个元素
+            }
+            dp[i][rest] = max(p1, p2);
+        }
+    }
+    return dp[0][bag];
+}
 
-int main_bag01()
+int main()
 {
     string str;
     getline(cin, str);
@@ -87,6 +118,9 @@ int main_bag01()
     {
         cout << num << ' '; 
     }
+    cout << endl;
+    cout << "**********************************" << endl;
+    cout << "模板: " << beibao(res, res, target);
     return 0;
 
 }

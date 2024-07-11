@@ -6,7 +6,7 @@ using namespace std;
 
 const int mod = 1e9 + 7;
 
-int main() {
+int main_bag02() {
     int n;
     cin >> n;
     vector<int> nums(n, 0);
