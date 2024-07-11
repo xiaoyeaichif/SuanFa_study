@@ -279,5 +279,8 @@
     <ClCompile Include="02装满背包需要多少种方法.cpp">
       <Filter>源文件\017背包问题</Filter>
     </ClCompile>
+    <ClCompile Include="03获取背包的最大值.cpp">
+      <Filter>源文件\017背包问题</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

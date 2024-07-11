@@ -58,7 +58,7 @@ int beibao(vector<int>& w, vector<int>& value, int bag)
     return dp[0][bag];
 }
 
-int main()
+int main_bag01()
 {
     string str;
     getline(cin, str);
