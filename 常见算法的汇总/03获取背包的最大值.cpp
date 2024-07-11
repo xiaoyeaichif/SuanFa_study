@@ -33,7 +33,7 @@ int main_bag03()
     cin >> n >> m;
     vector<int>nums(n);
     vector<int>values(n);
-    // 背包的容量为 m
+    // 背包的容量为 m 
     for (int i = 0; i < n; i++)
     {
         int a, b;
