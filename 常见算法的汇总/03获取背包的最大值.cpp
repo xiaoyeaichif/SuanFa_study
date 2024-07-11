@@ -10,7 +10,6 @@ using namespace std;
 
 vector<int> get_yasuo(vector<int>& w, vector<int>& value, int target)
 {
-    int n = w.size();
     vector<int>ans(target + 1, 0);
     int index = w.size();
     for (int i = 1;i < index+1;i++) // 代表的是滚动数组的次数
