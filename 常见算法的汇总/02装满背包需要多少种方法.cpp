@@ -26,7 +26,28 @@ vector<int> getCount(vector<int>& w, int bag)
     }
     return dp;
 }
-
+// 背包问题的另外一种写法
+// 前i个元素中选取若干个元素，使得背包容量装满的方案数
+vector<vector<int>>getCount1(vector<int>& nums, int bag)
+{
+    int n = nums.size();
+    vector<vector<int>>dp(n + 1, vector<int>(bag + 1, 0));
+    // 初始化表
+    dp[0][0] = 1;  // 不选择任何物品时，背包重量为0的方案数量为1
+    for (int i = 1; i <= n; i++) {
+        for (int rest = 0; rest <= bag; rest++) {
+            // 表示当前什么都不做,所以维持原状
+            int p1 = dp[i - 1][rest];
+            // 表示当前的背包容量能放下当前的元素
+            int p2 = 0;
+            if (rest >= nums[i - 1]) {
+                p2 = dp[i - 1][rest - nums[i - 1]];
+            }
+            dp[i][rest] = (p1 + p2) % mod;
+        }
+    }
+    return dp;
+}
 
 int main_bag02() {
     int n;
@@ -66,6 +87,7 @@ int main_bag02() {
     }
     cout << dp[0][target] << endl; // 
     // 输出dp数组的所有状态
+    cout <<"下标衡量的版本: " << endl;
     for (auto temp : dp)
     {
         for (auto a : temp)
@@ -80,6 +102,18 @@ int main_bag02() {
     for (int num : ans)
     {
         cout << num << ' ';
+    }
+    cout << endl;
+    // 
+    cout << "前缀数组版本: " << endl;
+    vector<vector<int>>res = getCount1(nums, target);
+    for (auto temp : res)
+    {
+        for (auto a : temp)
+        {
+            cout << a << ' ';
+        }
+        cout << endl;
     }
     return 0;
 }

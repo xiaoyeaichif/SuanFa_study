@@ -4,6 +4,8 @@
 #include<sstream>
 using namespace std;
 
+// 最大化最小值问题
+
 static const int N = 100000 + 10;
 static vector<int>nums(N, 0);
 

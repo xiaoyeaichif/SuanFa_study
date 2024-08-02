@@ -28,7 +28,7 @@ static vector<int> get_yasuo(vector<int>& w, int target)
 }
 
 
-int main()
+int main_bag04()
 {
     int n, m;
     cin >> n >> m;

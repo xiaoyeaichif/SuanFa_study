@@ -285,5 +285,11 @@
     <ClCompile Include="04恰好将背包填满需要的最少操作数.cpp">
       <Filter>源文件\017背包问题</Filter>
     </ClCompile>
+    <ClCompile Include="02最小内存.cpp">
+      <Filter>源文件\015拓扑排序的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="入度与出度的验证.cpp">
+      <Filter>源文件\55不同知识的验证</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

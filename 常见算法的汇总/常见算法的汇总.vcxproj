@@ -148,6 +148,7 @@
     <ClCompile Include="02区间修改,单点查询.cpp" />
     <ClCompile Include="02和为k的最长子数组问题.cpp" />
     <ClCompile Include="02埃氏筛_适合大数据范围.cpp" />
+    <ClCompile Include="02最小内存.cpp" />
     <ClCompile Include="02点权建图.cpp" />
     <ClCompile Include="02getline逗号处理字符串.cpp" />
     <ClCompile Include="02装满背包需要多少种方法.cpp" />
@@ -190,6 +191,7 @@
     <ClCompile Include="01判断一个数是质数还是合数.cpp" />
     <ClCompile Include="07输出树的高度.cpp" />
     <ClCompile Include="05判断路径是否存在.cpp" />
+    <ClCompile Include="入度与出度的验证.cpp" />
     <ClCompile Include="力扣1738.cpp" />
     <ClCompile Include="力扣826.cpp" />
     <ClCompile Include="华为0417.cpp" />
