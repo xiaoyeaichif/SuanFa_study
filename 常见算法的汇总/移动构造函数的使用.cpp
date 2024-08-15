@@ -30,7 +30,7 @@ private:
     int value;
 };
 
-int main_gouz02() {
+int main_gouz0() {
     MyClass obj1(10);
     MyClass obj2(std::move(obj1)); // 使用移动构造函数
     MyClass obj3(20);
