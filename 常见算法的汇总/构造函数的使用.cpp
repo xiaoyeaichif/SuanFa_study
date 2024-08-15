@@ -62,7 +62,7 @@ Myclass func(Myclass &temp)
     析构函数的调用  // temp1
 */
 
-int main()
+int main_gouz01()
 {
     Myclass temp1;
     Myclass temp2 = temp1;

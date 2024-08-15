@@ -201,6 +201,7 @@
     <ClCompile Include="02红绿二叉树.cpp" />
     <ClCompile Include="最长上升子序列.cpp" />
     <ClCompile Include="构造函数的使用.cpp" />
+    <ClCompile Include="移动构造函数的使用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

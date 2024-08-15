@@ -294,5 +294,8 @@
     <ClCompile Include="构造函数的使用.cpp">
       <Filter>源文件\056智能指针</Filter>
     </ClCompile>
+    <ClCompile Include="移动构造函数的使用.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
