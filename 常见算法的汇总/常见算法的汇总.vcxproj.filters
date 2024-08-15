@@ -291,5 +291,8 @@
     <ClCompile Include="入度与出度的验证.cpp">
       <Filter>源文件\55不同知识的验证</Filter>
     </ClCompile>
+    <ClCompile Include="构造函数的使用.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
