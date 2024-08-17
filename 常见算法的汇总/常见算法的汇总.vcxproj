@@ -189,6 +189,7 @@
     <ClCompile Include="05输入一整行的处理.cpp" />
     <ClCompile Include="02任何数表示成2进制表示.cpp" />
     <ClCompile Include="01判断一个数是质数还是合数.cpp" />
+    <ClCompile Include="07处理包含边界符号的字符串.cpp" />
     <ClCompile Include="07输出树的高度.cpp" />
     <ClCompile Include="05判断路径是否存在.cpp" />
     <ClCompile Include="入度与出度的验证.cpp" />
