@@ -300,5 +300,8 @@
     <ClCompile Include="07处理包含边界符号的字符串.cpp">
       <Filter>源文件\05字符串输入输出处理</Filter>
     </ClCompile>
+    <ClCompile Include="04function.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

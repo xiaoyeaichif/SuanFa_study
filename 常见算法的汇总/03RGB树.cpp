@@ -8,11 +8,14 @@ static int n, m;
 static void dfs(int i,int j,char x)
 {
 	if (i < 0 || j < 0 || i >= n || j >= m) return;
+	// 与当前字符不同，跳过
 	if (nums[i][j] != x )
 	{
 		return;
 	}
-	nums[i][j] = '#';//把所有字符改成R
+	// 设置一个标志位
+	// 表示遍历过
+	nums[i][j] = '#';//把所有c字符改成#
 	//上下左右遍历
 	dfs(i - 1, j, x);
 	dfs(i + 1, j, x);
