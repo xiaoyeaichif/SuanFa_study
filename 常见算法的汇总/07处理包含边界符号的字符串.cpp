@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main_input07 {
+int main_input07() {
     string input;
     cin >> input;  // 读取整个输入
 

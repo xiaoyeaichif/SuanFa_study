@@ -9,7 +9,7 @@ int add(int a, int b)
 	return a + b;
 }
 
-int main()
+int main_function()
 {
 	// function<int(int, int)>的别名是func1
 	// 返回值为int,参数列表为int，int

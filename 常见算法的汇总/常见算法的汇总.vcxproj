@@ -178,6 +178,7 @@
     <ClCompile Include="04计算相似度.cpp" />
     <ClCompile Include="04以逗号分割的数组输入处理.cpp" />
     <ClCompile Include="03统计数组中全为1的正方形个数.cpp" />
+    <ClCompile Include="05bind.cpp" />
     <ClCompile Include="05最长的R区间.cpp" />
     <ClCompile Include="05矩阵距离.cpp" />
     <ClCompile Include="05统计给定数字的因子个数.cpp" />
