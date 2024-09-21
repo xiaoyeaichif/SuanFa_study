@@ -306,5 +306,26 @@
     <ClCompile Include="05bind.cpp">
       <Filter>源文件\056智能指针</Filter>
     </ClCompile>
+    <ClCompile Include="08getline的用法.cpp">
+      <Filter>源文件\05字符串输入输出处理</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串以空格分割输出保留两位小数.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="多线程实现打印数字.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="06最小距离和.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="07传球.cpp">
+      <Filter>源文件\014BFS的应用</Filter>
+    </ClCompile>
+    <ClCompile Include="yan.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共子序列.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

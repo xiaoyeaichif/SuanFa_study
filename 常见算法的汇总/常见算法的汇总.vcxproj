@@ -163,6 +163,7 @@
     <ClCompile Include="03RGB树.cpp" />
     <ClCompile Include="03平方数.cpp" />
     <ClCompile Include="03指针常量和常量指针.cpp" />
+    <ClCompile Include="06最小距离和.cpp" />
     <ClCompile Include="03获取背包的最大值.cpp" />
     <ClCompile Include="03边权建图.cpp" />
     <ClCompile Include="03逆序对个数.cpp" />
@@ -194,15 +195,21 @@
     <ClCompile Include="07处理包含边界符号的字符串.cpp" />
     <ClCompile Include="07输出树的高度.cpp" />
     <ClCompile Include="05判断路径是否存在.cpp" />
+    <ClCompile Include="08getline的用法.cpp" />
+    <ClCompile Include="07传球.cpp" />
+    <ClCompile Include="yan.cpp" />
     <ClCompile Include="入度与出度的验证.cpp" />
     <ClCompile Include="力扣1738.cpp" />
     <ClCompile Include="力扣826.cpp" />
     <ClCompile Include="华为0417.cpp" />
     <ClCompile Include="合唱队行.cpp" />
+    <ClCompile Include="多线程实现打印数字.cpp" />
+    <ClCompile Include="字符串以空格分割输出保留两位小数.cpp" />
     <ClCompile Include="左移右移测试.cpp" />
     <ClCompile Include="04拥堵的城市.cpp" />
     <ClCompile Include="02红绿二叉树.cpp" />
     <ClCompile Include="最长上升子序列.cpp" />
+    <ClCompile Include="最长公共子序列.cpp" />
     <ClCompile Include="构造函数的使用.cpp" />
     <ClCompile Include="移动构造函数的使用.cpp" />
   </ItemGroup>
