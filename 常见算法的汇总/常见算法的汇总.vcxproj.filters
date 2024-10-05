@@ -327,5 +327,8 @@
     <ClCompile Include="最长公共子序列.cpp">
       <Filter>源文件\056智能指针</Filter>
     </ClCompile>
+    <ClCompile Include="wangyi.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

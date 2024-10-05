@@ -197,6 +197,7 @@
     <ClCompile Include="05判断路径是否存在.cpp" />
     <ClCompile Include="08getline的用法.cpp" />
     <ClCompile Include="07传球.cpp" />
+    <ClCompile Include="wangyi.cpp" />
     <ClCompile Include="yan.cpp" />
     <ClCompile Include="入度与出度的验证.cpp" />
     <ClCompile Include="力扣1738.cpp" />

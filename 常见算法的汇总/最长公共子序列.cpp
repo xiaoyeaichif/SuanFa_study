@@ -17,17 +17,12 @@ int main_0921() {
     {
         nums1.push_back(num);
     }
-    for (int& a : nums1)
-    {
-        cout << a << ' ';
-    }
-    cout << endl;
-
     //
     while (ess >> num)
     {
         nums2.push_back(num);
     }
+    // ´òÓ¡¼ì²é
     for (int& a : nums2)
     {
         cout << a << ' ';
