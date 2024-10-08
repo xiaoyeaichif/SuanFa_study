@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00.cpp" />
     <ClCompile Include="01share_ptr的使用.cpp" />
     <ClCompile Include="01一维前缀和模板.cpp" />
     <ClCompile Include="01二分查找的三种写法.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="03为给定数组大小流式处理字符串.cpp" />
     <ClCompile Include="03RGB树.cpp" />
     <ClCompile Include="03平方数.cpp" />
+    <ClCompile Include="03拓扑排序模板.cpp" />
     <ClCompile Include="03指针常量和常量指针.cpp" />
     <ClCompile Include="06最小距离和.cpp" />
     <ClCompile Include="03获取背包的最大值.cpp" />

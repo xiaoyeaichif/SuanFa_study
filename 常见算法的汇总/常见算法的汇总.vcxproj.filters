@@ -330,5 +330,11 @@
     <ClCompile Include="wangyi.cpp">
       <Filter>源文件\056智能指针</Filter>
     </ClCompile>
+    <ClCompile Include="00.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="03拓扑排序模板.cpp">
+      <Filter>源文件\015拓扑排序的应用</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

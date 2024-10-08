@@ -4,7 +4,7 @@
 #include<string>
 using namespace std;
 
-int main() {
+int main_1006() {
     int n;
 
     cin >> n;

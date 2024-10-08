@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-const int MAXN = 10001;
+const int MAXN = 100001;
 
 int father[MAXN]; // 并查集数组，存储父节点
 int Size[MAXN];//保存集合中的个数
