@@ -20,11 +20,11 @@ private:
     std::string b_;
 };
 
-int main_0107() {
+int main0109() {
     std::vector<MyClass> v;
     v.reserve(16);
     // std::lock_guard<std::mutex
-    std::unique_lock<std::mutex>;
+   //  std::unique_lock<std::mutex>;
 
     std::cout << "Using push_back:\n";
     MyClass obj1(1, "example1");
@@ -34,6 +34,11 @@ int main_0107() {
     std::cout << "\nUsing emplace_back:\n";
     v.emplace_back(2, "example2"); // 直接在 vector 内存空间中构造，无需拷贝或移动
     std::cout << "\nover \n";
+
+    int a = 10;
+    int b = std::move(a);
+    std::cout << a << std::endl;
+    std::cout << b<< std::endl;
     return 0;
 }
 /*

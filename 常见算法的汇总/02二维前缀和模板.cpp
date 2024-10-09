@@ -4,9 +4,9 @@
 using namespace std;
 
 //全局变量使用
-const int N = 10;
-int n, m, q;
-int a[N][N], s[N][N];
+static const int N = 10;
+static int n, m, q;
+static int a[N][N], s[N][N];
 
 /*
 1<= n <=1000
