@@ -133,6 +133,7 @@
     <ClCompile Include="huawi.cpp" />
     <ClCompile Include="字符转数字.cpp" />
     <ClCompile Include="完美转发验证.cpp" />
+    <ClCompile Include="归并排序.cpp" />
     <ClCompile Include="拷贝构造与移动构造.cpp" />
     <ClCompile Include="01share_ptr的使用.cpp" />
     <ClCompile Include="01一维前缀和模板.cpp" />

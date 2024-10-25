@@ -62,7 +62,7 @@ void QuickSort(vector<int>&nums,int left ,int right)
 
 
 
-int main()
+int main_Quicksort()
 {
 	vector<int>nums = { 1,2,3,4,2,7,5,3,2,1,5,8,9,-5,6,8,9 };
 	cout << "-------------快速排序之前-------------" << endl;
