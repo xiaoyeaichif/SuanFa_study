@@ -345,5 +345,17 @@
     <ClCompile Include="huaweidiert.cpp">
       <Filter>源文件\056智能指针</Filter>
     </ClCompile>
+    <ClCompile Include="cehis0000.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="字符转数字.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="baidu.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="返回局部对象实验.cpp">
+      <Filter>源文件\056智能指针</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
