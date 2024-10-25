@@ -13,6 +13,8 @@ int findIndex(vector<int>& nums, int left, int right)
 	int temp = nums[left];
 	// 快排的模板
 	// left == right 跳出循环
+	// 主要目的是吧大于temp的元素移到右侧
+	// 小于temp的移动到左侧
 	while (left < right)
 	{
 		// 把元素放在temp的右边
@@ -22,19 +24,26 @@ int findIndex(vector<int>& nums, int left, int right)
 		}
 		// 出循环，找到当前的元素 < temp，将当前的元素放在left的位置上
 		nums[left] = nums[right];
+		// 同理
 		// 开始更新左侧的元素
 		while (left < right && nums[left] <= temp)
 		{
 			left++;
 		}
+		// 找到第一个比temp大的元素
+		// 将其移动到右侧
 		nums[right] = nums[left];
 	}
+	// 出循环
 	// left == right
 	nums[left] = temp;
-	return left;
+	// 找到该元素将数组分为两个区间
+	return left; // 或者return right都一样
+	
 }
 
 // 快速排序的实现
+// 递归实现
 void QuickSort(vector<int>&nums,int left ,int right)
 {
 	// 一旦相等，立刻返回
