@@ -221,7 +221,7 @@
     <ClCompile Include="最长公共子序列.cpp" />
     <ClCompile Include="构造函数的使用.cpp" />
     <ClCompile Include="移动构造函数的使用.cpp" />
-    <ClCompile Include="返回局部对象实验.cpp" />
+    <ClCompile Include="快速排序.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
